@@ -6,7 +6,7 @@ description: Hello, my name is Zengxiaoran Kang, AKA Shawn. Welcome to my academ
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: selfie.jpg
   address: >
     <p>B.S. in Computer Science</p>
     <p>B.S. in Statistics</p>
