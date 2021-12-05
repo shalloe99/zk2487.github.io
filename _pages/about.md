@@ -2,23 +2,26 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Hello, my name is Zengxiaoran Kang, AKA Shawn. Welcome to my academic website and please enjoy your visit here. If you want to know more about me, please feel free to connect me on <a href="https://www.linkedin.com/in/kzxr/">LinkedIn</a>. 
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>B.S. in Computer Science</p>
+    <p>B.S. in Statistics</p>
+    <p>Texas A & M University</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+# news: true  # includes a list of news items
+# selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+I am going to obtain both B.S. in Computer Science & B.S. in Statistics at [Texas A & M University](https://www.tamu.edu/) in May 2022. Gig 'em! 
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I was originally born in a beautiful coastal city in southern China and moved to Houston when I attended high school. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I posted a series of my [research work](/research/), [projects](/projects/), and [teaching experience](/teaching/) on the site.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I love music and `art` because both can spread a message of inspiration, helping people achieve the betterment of thoughts and life. I have put up some of my best art pieces in the [gallery](/gallery/) and please check it out!
+
+
