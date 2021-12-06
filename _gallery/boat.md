@@ -4,7 +4,7 @@ title: boat
 description: A sinking boat
 img: assets/img/boat.jpg
 importance: 1
-category: work
+category: reflection
 ---
 A wooden boat is sinking near the shore. Wooden boats sink for one main reason: ballast.
 <div class="row">

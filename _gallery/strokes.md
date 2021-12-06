@@ -1,10 +1,10 @@
 ---
 layout: page
 title: strokes
-description: Chinese Calligraphy Brush 筆
+description: Chinese calligraphy brush 筆
 img: assets/img/strokes.jpg
 importance: 1
-category: work
+category: fantasy
 ---
 Some beautiful Chinese calligraphy Brush pens lie on the rice paper and are ready to perform their works.
 
