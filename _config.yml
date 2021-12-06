@@ -103,6 +103,12 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  gallery:
+    output: true
+    permalink: /gallery/:path/
+  teaching:
+    output: true
+    permalink: /teaching/:path/
 
 news_limit: 5
 
@@ -182,8 +188,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Kang
+  first_name: [Zengxiaoran, S.]
 
   style: apa
   locale: en
@@ -247,6 +253,10 @@ enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
+enable_gallery_categories:  true   # enables categorization of gallery into
+                                   # multiple categories   
+enable_teaching_categories:  true  # enables categorization of teaching into
+                                   # multiple categories                                                                
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 
 
