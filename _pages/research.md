@@ -2,7 +2,7 @@
 layout: page
 permalink: /research/
 title: research
-description: Research Papers and Presentations
+description: Research papers and presentations
 years: [2022, 2021, 2020]
 nav: true
 ---

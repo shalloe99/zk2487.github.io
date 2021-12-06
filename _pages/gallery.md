@@ -2,8 +2,9 @@
 layout: page
 permalink: /gallery/
 title: gallery
-description: Materials for courses you taught. Replace this text with your description.
+description: My art gallery
 nav: true
+horizontal: false
 ---
 
-Here is my galleryYou can convert it to a collection similar to `_projects/` 
+Artists are simple people with the complex mind ≠ Simple people with a complex mind are artists
