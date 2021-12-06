@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: A growing collection of cool projects.
 nav: true
-display_categories: [work, fun]
+display_categories: [school, work, fun]
 horizontal: true
 ---
 <div class="projects">
