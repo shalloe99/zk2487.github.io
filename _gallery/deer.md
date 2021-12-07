@@ -1,7 +1,7 @@
 ---
 layout: page
 title: deer
-description: a deer behend a fence
+description: A deer behind a fence
 img: assets/img/deer.jpg
 importance: 1
 category: reflection

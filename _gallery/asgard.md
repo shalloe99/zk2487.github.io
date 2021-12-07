@@ -1,7 +1,7 @@
 ---
 layout: page
 title: asgard
-description: An abstract art of dream Asgard
+description: An abstract dream of Asgard
 img: assets/img/Asgard.jpg
 importance: 1
 category: fantasy
