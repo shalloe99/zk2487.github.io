@@ -4,7 +4,7 @@ title: asgard
 description: An abstract dream of Asgard
 img: assets/img/Asgard.jpg
 importance: 1
-category: fantasy
+category: abstract
 ---
 The source image was taken at `the Mt. Hodo Small Animal Park`, situated at the peak of Mt. Hodo. It is a five-minute ropeway ride from the Nagatoro Station. 
 <div class="row">

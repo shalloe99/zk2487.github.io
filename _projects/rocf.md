@@ -4,77 +4,33 @@ title: ROCF
 description: Analyze cognitive impairment
 img: assets/img/rey.jpg
 importance: 1
-category: work
+category: data analysis
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Our system uses a smartpen to automatically digitize sketches from paper. A participant draws a Rey-Osterrieth Complex Figure as they would draw on any piece of paper. The test figures produce fuzzy sketches since several lines are segmented. Participants can also draw the shape in any order they wish, combining any shapes. The sketches will be turned into undirected graph, and 18 details are recognized with automated system.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Intro
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The Rey-Osterrieth Complex Figure Test (ROCF) - neuropsychological test that evaluates several cognitive functions including visuospatial abilities, memory, attention, planning, working memory and executive functions. The shape is specifically designed to be abstract so that participants cannot associate it with any common object or concept. A clinician then grades all three sketches on whether 18 separate sub-shapes exist and, if they do, how neatly they were drawn. Our creation of an automated ROCF that can grade itself on the existing grading scheme. 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/1.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/3.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/5.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/5.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Graph Creation
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+Step by step construction pipeline: 
+
+1. Corner detection by resampling to a uniform interspace with Pythagorean theorem
+2. Corner-finding algorithm from Wolin to identify any “corner” from drawn strokes
+3. Create undirected graph
+4. Vertex Contraction vertices that fall below a predetermined distance threshold.
+
+## Grading
+
+To test our recognizer’s performance, the system graded `141 digitized Rey-Osterrieth tests` from participants, and we compare how closely our system’s grades correlate with those of an expert grader. For healthy participants taking this test, our expert graders attributed sloppiness as a lack of effort rather than genuine memory loss if the patient has no hand motor issues. By employing graph crawling, classical vertex search, and optimization algorithms we are able to identify key sub-shapes of geometric shapes.
+
+###  Grading Tools
+
+`F1-Score` of our recognition algorithm for each detail, and the comparison between our system’s total grade and the expert graders’ total grade. Spearman's Rank correlation coefficient is a technique which can be used to summarise the strength and direction (negative or positive) of a relationship between two variables.
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% responsive_image path: assets/img/6.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% responsive_image path: assets/img/11.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Paper
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% responsive_image path: assets/img/6.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% responsive_image path: assets/img/11.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+The project repository is confidential. However, if you are interested in learning more, I posted the unpublished manuscript under my [research work](/research/).

@@ -4,7 +4,7 @@ permalink: /gallery/
 title: gallery
 description: My art gallery.
 nav: true
-display_categories: [reflection, fantasy, nature]
+display_categories: [abstract, realism, idealism, nature]
 horizontal: false
 ---
 

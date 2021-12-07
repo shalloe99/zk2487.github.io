@@ -4,7 +4,7 @@ title: horse
 description: A cowboy harnessing the horse
 img: assets/img/horse.jpg
 importance: 1
-category: reflection
+category: realism
 ---
 Some people say that life should be "carpe diem", but I would say that choosing to "enjoy" life comfortably at the age when you should be working hard is a chronic suicide.
 

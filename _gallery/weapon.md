@@ -4,7 +4,7 @@ title: weapon
 description: An evolution chronicle of weaponry
 img: assets/img/weapon.jpg
 importance: 1
-category: fantasy
+category: abstract
 ---
 
 The source image was taken at `the Mt. Hodo Small Animal Park`, situated at the peak of Mt. Hodo. It is a five-minute ropeway ride from the Nagatoro Station. The Nagatoro area has the Nagatoro Valley, which is designated as a National Site of Scenic Beauty, and has other famous sightseeing spots. The main attraction of the park is interacting with animals such as the Japanese macaque monkeys and `Japanese Shika deer`, surrounded by clean air and rich nature.
