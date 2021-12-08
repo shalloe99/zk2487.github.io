@@ -12,7 +12,7 @@
   Shawn Kang
 
 
-  | blog
+  | ROCF
 
 </title>
 <meta name="description" content="This is Zengxaioran (AKA) Kang's personal website. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -38,7 +38,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://zk2487.github.io/blog/">
+<link rel="canonical" href="https://zk2487.github.io/projects/rocf/">
 
 
 <!-- Dark Mode -->
@@ -80,18 +80,14 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
-              
-              <span class="sr-only">(current)</span>
               
             </a>
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -153,8 +149,8 @@
           
           
           
-            <div class = "toggle-container">
-              <a id = "light-toggle">
+            <div class="toggle-container">
+              <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
               </a>
@@ -173,18 +169,42 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>Kang's Blog</h1>
-    <h2>Welcome to my blog. It's great to have you here.</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">ROCF</h1>
+    <p class="post-description">Analyze cognitive impairment</p>
+  </header>
 
+  <article>
+    <p>Our system uses a smartpen to automatically digitize sketches from paper. A participant draws a Rey-Osterrieth Complex Figure as they would draw on any piece of paper. The test figures produce fuzzy sketches since several lines are segmented. Participants can also draw the shape in any order they wish, combining any shapes. The sketches will be turned into undirected graph, and 18 details are recognized with automated system.</p>
 
-  <ul class="post-list">
-    
-  </ul>
+<h2 id="intro">Intro</h2>
 
-  
+<p>The Rey-Osterrieth Complex Figure Test (ROCF) - neuropsychological test that evaluates several cognitive functions including visuospatial abilities, memory, attention, planning, working memory and executive functions. The shape is specifically designed to be abstract so that participants cannot associate it with any common object or concept. A clinician then grades all three sketches on whether 18 separate sub-shapes exist and, if they do, how neatly they were drawn. Our creation of an automated ROCF that can grade itself on the existing grading scheme.</p>
 
+<h2 id="graph-creation">Graph Creation</h2>
+
+<p>Step by step construction pipeline:</p>
+
+<ol>
+  <li>Corner detection by resampling to a uniform interspace with Pythagorean theorem</li>
+  <li>Corner-finding algorithm from Wolin to identify any “corner” from drawn strokes</li>
+  <li>Create undirected graph</li>
+  <li>Vertex Contraction vertices that fall below a predetermined distance threshold.</li>
+</ol>
+
+<h2 id="grading">Grading</h2>
+
+<p>To test our recognizer’s performance, the system graded <code class="language-plaintext highlighter-rouge">141 digitized Rey-Osterrieth tests</code> from participants, and we compare how closely our system’s grades correlate with those of an expert grader. For healthy participants taking this test, our expert graders attributed sloppiness as a lack of effort rather than genuine memory loss if the patient has no hand motor issues. By employing graph crawling, classical vertex search, and optimization algorithms we are able to identify key sub-shapes of geometric shapes.</p>
+
+<h3 id="grading-tools">Grading Tools</h3>
+
+<p><code class="language-plaintext highlighter-rouge">F1-Score</code> of our recognition algorithm for each detail, and the comparison between our system’s total grade and the expert graders’ total grade. Spearman’s Rank correlation coefficient is a technique which can be used to summarise the strength and direction (negative or positive) of a relationship between two variables.</p>
+
+<h2 id="paper">Paper</h2>
+
+<p>The project repository is confidential. However, if you are interested in learning more, I posted the unpublished manuscript under my <a href="/research/">research work</a>.</p>
+
+  </article>
 
 </div>
 
@@ -195,8 +215,8 @@
     
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    &copy; Copyright 2021 Zengxiaoran (Shawn)  Kang.
-    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+    © Copyright 2021 Zengxiaoran (Shawn)  Kang.
+    Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
 
     
     
