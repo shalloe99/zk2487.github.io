@@ -6,7 +6,7 @@ img: assets/img/Asgard.jpg
 importance: 1
 category: abstract
 ---
-The source image was taken at `the Mt. Hodo Small Animal Park`, situated at the peak of Mt. Hodo. It is a five-minute ropeway ride from the Nagatoro Station. 
+In Norse mythology, Asgard is a location associated with gods. These three pieces displayed my abstract imagination of Asgard.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/asgard2.jpg title: "asgard2 image" class: "img-fluid rounded z-depth-1" %}
@@ -19,7 +19,9 @@ The source image was taken at `the Mt. Hodo Small Animal Park`, situated at the 
     </div>
 </div>
 <div class="caption">
-    A golden cage locked up the nature of the deer, even this forest's fairy is tamed under trammel.
+   Asgard, home to the Northern legends, choas, and wild.
 </div>
+The -gard element in Asgard’s name is a reference to the ancient Germanic concept of the distinction between the innangard and utangard. That which is innangard (“inside the fence”) is orderly, law-abiding, and civilized, while that which is utangard (“beyond the fence”) is chaotic, anarchic, and wild. 
 
-There was once a king, who loved the `cleverness` of a deer. The deer that was able to jump through the forest, ramble under the clear blue sky or thunderous showers. It could see the whole world whenever it wanted. It enjoyed its freedom. However, the King was in love with the deer on a whim and wanted to possess it.
+
+Fact: Asgard is the ultimate model of the innangard, while Jotunheim, the “Homeland of the Giants,” is the epitome of the utangard. -- [Norse Mythology](https://norse-mythology.org/cosmology/the-nine-worlds/asgard/)

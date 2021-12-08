@@ -61,7 +61,7 @@ nav: true
 }
 
 .timeline .column .description p {
-	font-size: 13px;
+	font-size: 18px;
 	line-height: 20px;
 	margin-left: 20px;
 	margin-top: 10px;
@@ -96,74 +96,56 @@ nav: true
     <div class="timeline">
         <div class="column">
             <div class="title">
-                <h1> 1867 </h1>
-                <h2> ALFRED ELY BEACH: <br> BEACH PNEUMATIC TRANSIT </h2>
+                <h1> 2021 </h1>
+                <h2> Fall <br> Teaching Assistant </h2>
             </div>
             <div class="description">
-                <p> Americký vynálezca v tomto roku prezentoval tunelový systém, v ktorom sa pomocou stlačeného vzduchu pohybovala transportná bunka valcovitého tvaru. Na dráhe premávala kyvadlovým spôsobom jedna transportná kapsula. Pohyb zabezpečoval pneumatický kompresor, ktorý v jednom smere kapsulu “vytláčal” a v druhom smere ”nasával”. Bola vybudovaná aj skúšobná dráha, ktorá istý čas fungovala ale projekt bol zamietnutý a v dôsledku krachu americkej burzy sa ho nepodarilo oživiť. </p>
+                <p> <a href="https://stat.tamu.edu/">Dept. of Statistics</a> </p>
+                <p> I am a Teaching Assistant from Aug 2021 to the Present in the Department of Statistics at Texas A & M University and helping instructional responsibilities on STAT 212 Principles of Statistics II. The course topics include the Design of experiments, multiple regression, non-parametric techniques, and contingency tables. In addition, I host weekly Recitation sessions and have fixed office hours to help students consolidate course content.</p>
             </div>
         </div>
         <div class="column">
             <div class="title">
-                <h1> 1904 </h1>
-                <h2> ROBERT H. GODDARD: <br> VACUUM TUBE TRANSPORTATION SYSTEM </h2>
+                <h1> 2020 </h1>
+                <h2> Summer <br> Camp Instructor </h2>
             </div>
             <div class="description">
-                <p> Prvé zmienky o jeho koncepte sa objavili v roku 1909 ale kompletná dokumnetácia pochádza z roku 1904, ktorá sa objavila až 30 rokov po jeho smrti v opustenom sklade. V tomto koncepte Goddard popisuje hlavné črty konceptu Hyperloop.  Spomína použitie lineárneho elektromotora. Opisuje zariadenie na minimalizáciu nepriaznivého prúdenia vzduchu v okolí transportnej kapsuly. Venuje sa aj použitiu vzduchových ložísk. Hovorí o cestovaní rýchlosťou 1900 km/h. </p>
+                <p> <a href="https://www.idtech.com/">iD Tech Summer Camp</a> </p>
+                <p>During the pandemic period, I continued to lecture fundamental Python/Java programming in the online setting and applied behavior management to enforce regulations among my class. 
+                </p>
             </div>
         </div>
         <div class="column">
             <div class="title">
-                <h1> 1909 <!-- – 1914 --> </h1>
-                <h2> BORIS WEINBERG: <br> POHYB BEZ TRENIA </h2>
+                <h1> 2019 </h1>
+                <h2> Summer <br> Camp Instructor </h2>
             </div>
             <div class="description">
-                <p> Boris Weinberg vo svojej práci  vydanej v roku 1914, písal o levitujúcich automobiloch na elektromagnetický pohon, pohybujúcich sa v medenom potrubí, z ktorého bol odsatý vzduch. Experimentoval s 10 kg vozňom, ktorý sa pohyboval v medenom potrubí . Tento systém bol kruhový a vožeň dosahoval maximálne 6 km/h. Tvrdil, že na 3km trati vozeň dosiahne až 800-1000 km/h. Projekt nemohli zrealizovať kvôli vysokým finančným nákladom. </p>
+                <p> <a href="https://www.idtech.com/">iD Tech Summer Camp</a> </p>
+                <p> I was a camp instructor and taught the course Machine Learning and Artificial Intelligence for the iD Tech Summer Camp at Rice University. The course content included fundamental supervised learning, reinforcement learning, and a focus on convolutional neural networks. In addition to supervising students and leading games and activities, I tried my best to foster a fun and safe environment while helping students learn new technology and think creatively. I also responded to critical incidents, ensured all students are meeting set curriculum goals, and socialized with families during points of contact. 
+                </p>
             </div>
         </div>
         <div class="column">
             <div class="title">
-                <h1> 1969 </h1>
-                <h2> JOHN A. VOLPE: <br> STREAMLINERS WITHOUT WHEELS </h2>
+                <h1> 2019 </h1>
+                <h2> Spring <br> Supplementary Instructor </h2>
             </div>
             <div class="description">
-                <p> Volpe detailne popisuje koncepty, ale aj prototypy dopravných prostriedkov, ktoré sa mali pohybovať na vzduchových „vankúšoch“ či „ložiskách“. A to nad otvorenou traťou alebo v polouzavretom a uzavretom potrubí. Spomína lineárne indukčné motory, pneumatický pohon, transportné potrubné systémy s minimálnou atmosférou či dokonca vákuom. Uvádza, že rýchlosti týchto vozidiel sa môžu pohybovať od 300 do 800 km/h. Ukončenie konceptov majú na svedomí financie alebo technika. </p>
+                <p> <a href="https://asc.tamu.edu/Supplemental-Instruction">Supplementary Instructor</a> </p>
+                <p>In the second semester of my first year studying at Texas A & M University, I became a Supplementary Instructor (SI) for ENGR 102 Engineering Lab I - Computation. Each week, I designed a customized worksheet and prepared three SI sessions. My duties mainly centered around integrating course content with active learning skills and consolidating students’ understanding of course contents by using related activities. In addition, I effectively used exception reporting to keep the professor and supervisor informed of students’ performance, and actively advertised SI sessions. During the class, I assisted students to practice basic python concepts, including installation, debug, homework review, and answering consulting emails routinely.
+                </p>
             </div>
         </div>
         <div class="column">
             <div class="title">
-                <h1> 1972 <!-- – 1978 --> </h1>
-                <h2> ROBERT M. SALTER: <br> THE VERY HIGH SPEED TRANSIT SYSTEM </h2>
+                <h1> 2016 </h1>
+                <h2> Fall <br> Sunday School Instructor </h2>
             </div>
             <div class="description">
-                <p> Jednalo sa o víziu podzemnej tunelovej prepravy obrovskou rýchlosťou,  až 16000 km/h. Technológiu nazval "plávanie po magnetickej dráhe" a prepravný modul "gondolou".Za kľúčové považoval minimalizovanie energie nutnej na prevádzku. Preto navrhol vytvoriť v tuneli atmosféru, aká panuje v maximálnej nadmorskej výške, v ktorej lietajú dopravné lietadlá. Tým by sa minimalizoval odpor vzduchu. Aby ešte ušetril ďalšiu energiu, potreboval eliminovať trenie. Riešením boli „elektromagnetické lôžka. </p>
-            </div>
-        </div>
-        <div class="column">
-            <div class="title">
-                <h1> 1974 <!-- - 2009 --> </h1>
-                <h2> SWISSMETRO </h2>
-            </div>
-            <div class="description">
-                <p> Swissmetro bol/je švajčiarsky vactrain projekt cez 100 km dlhý nízkotlakový tunel. Pomocou lineárnych elektromotorov mala rýchlosť súpravy presahovať 520 km/h. Na rozdiel od iných svetových vactrain projektov, plánovali Švajčiari vybudovať tunel pre štandardne veľké vlakové súpravy. Tunel teda musel mať priemer 5 až 6 m. Iniciátorom projektu bol Rodolphe Nieth, ktorý pracoval ako inžinier pre Švajčiarske spolkové dráhy. Projekt bol oficiálne ukončený v roku 2009. </p>
-            </div>
-        </div>
-        <div class="column">
-            <div class="title">
-                <h1> 1997 </h1>
-                <h2> DARYL OSTER: <br> EVACUATED TUBE TRANSPORT TECHNOLOGIES (ET3) </h2>
-            </div>
-            <div class="description">
-                <p> Opäť sa jedná o nízkotlakový potrubný systém, v ktorom sa pohybuje transportná kapsula, za pomoci lineárnych elektromotorov a magnetickej levitácie (maglev). Tzn., že kapsula nemusí mať žiadne pohyblivé alebo elektricky aktivované komponenty – pasívne supravodiče umožňujú kapsule vznášať sa v trubici, pričom vírivé prúdy indukované vo vodivých materiáloch umožňujú riadenie kapsuly. Na jej rozbeh by sa z veľkej časti využívala energia, ktorá vzniká pri brzdení (rekuperácia). </p>
-            </div>
-        </div>
-        <div class="column">
-            <div class="title">
-                <h1> 2003 </h1>
-                <h2> MICHAEL THALHAMMER: <br> TUBEWAY </h2>
-            </div>
-            <div class="description">
-                <p> Tubeway podobne ako Hyperloop využíva systém transportného potrubia. Vo vnútri transportného potrubia sa pohybuje kapsula pomocou pneumatického pohonu. Kompresor zabudovaný v kapsule nasáva vzduch z prednej časti kapsuly, ktorý stlačí a uvoľní zo zadnej časti kapsuly. Kapsula v potrubí nelevituje, pohybuje sa pomocou kolies. Jej rýchlosť sa má pohybovať od 40 do 350 km/h. Tubeway je však stále len v rovine teoretickej a experimentálnej práce. </p>
+                <p> <a href="https://www.fbcchome.org/FBCC/Page/114">Fort Bend Community Church</a> </p>
+                <p> Back in high school, I led a fellowship for International Students’ group every Sunday and assisted new students in tackling difficulties they faced in their new environments. During the summer of 2017, I preached Bible lessons to elementary school children and prepared activities for children to participate in church-wide programs.
+                </p>
             </div>
         </div>
     </div>

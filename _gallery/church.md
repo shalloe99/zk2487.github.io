@@ -6,21 +6,14 @@ img: assets/img/church.jpg
 importance: 1
 category: nature
 ---
-
-The source image was taken at `the Mt. Hodo Small Animal Park`, situated at the peak of Mt. Hodo. It is a five-minute ropeway ride from the Nagatoro Station. The Nagatoro area has the Nagatoro Valley, which is designated as a National Site of Scenic Beauty, and has other famous sightseeing spots. The main attraction of the park is interacting with animals such as the Japanese macaque monkeys and `Japanese Shika deer`, surrounded by clean air and rich nature.
+Oil pastel, a catholic church in I visited in Australia.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/church.jpg title: "church image" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    A golden cage locked up the nature of the deer, even this forest's fairy is tamed under trammel.
+    Our Father, Who art in heaven, hallowed be Thy name.
 </div>
 
-There was once a king, who loved the `cleverness` of a deer. The deer that was able to jump through the forest, ramble under the clear blue sky or thunderous showers. It could see the whole world whenever it wanted. It enjoyed its freedom. However, the King was in love with the deer on a whim and wanted to possess it.
-
-The King’s Assistant caught the deer and placed it in a `golden cage` filled with diamonds, obsidians, and other precious stones. Unknown to the King, he felt the deer appreciated the golden cage and precious gems, who wouldn’t love it? 
-
-However, only the deer knew if it likes the cage or not. If you are the deer, do you appreciate the splender cage of emptiness?
-
-If we choose to let go of this cage of the mind in inquiring about what stops us from living the truth then maybe we truly transcend the time and live as consciousness, a pure awareness, as the `Formless`.
+The Catholic Church in Australia is part of the worldwide Catholic Church under the spiritual and administrative leadership of the Holy See. From origins as a suppressed, mainly Irish minority in early colonial times, the church has grown to be the largest Christian denomination in Australia. 

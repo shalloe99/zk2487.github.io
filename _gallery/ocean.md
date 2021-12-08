@@ -17,4 +17,4 @@ category: nature
     Islanders' migration and the oceans: From hopes to fears? 
 </div>
 
-This paper explores islanders' hopes and fears for migration and non-migration, highlighting the role of the ocean. 
+This piece intend to express islanders' hopes and fears for migration and non-migration, highlighting the role of the ocean. 
